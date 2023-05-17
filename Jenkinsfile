@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/learnasws16161616/maven.git'
+                git 'https://github.com/learnasws16161616/maven.git' // test change
             }
         }
          stage('Build') {
